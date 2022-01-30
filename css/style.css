@@ -26,7 +26,7 @@
   height: 58px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .ul {
@@ -97,10 +97,4 @@
     height: 20px
     fit-content
   }
-h1 {
-  
-  background-color: white;
-  border-radius: 10px;
-  height: 150px
 
-}
