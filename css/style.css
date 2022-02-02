@@ -1,13 +1,18 @@
+.html, body {
+  width:100%;
+  height: 100%;
+}
+
+
 .navigation {
-  background-color: red;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   width: 100%;
   position: sticky; top:10px;
-  
 }
 
 .inline-block {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: sub;
   padding: 3px 10px 0px 10px;
   font-style: normal;
   font-weight: bolder;
@@ -15,9 +20,20 @@
   color: white;
 }
 
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex; 
+}
+
+
+
 .logo {
-  width: 30%;
-  padding:1%;
+  width: 35%;
+  padding: none;
 }
 
 .nav {
@@ -58,7 +74,7 @@
 
 
 .footer {
-  background-color: red;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   width: 100%;
   position: bottom;
   left: 0px;
@@ -78,7 +94,7 @@
 
 .Download {
   border-radius: 25px;
-  background-color: red;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   color: white;
   font-size: 18px;
   padding: 8px 20px;
@@ -89,7 +105,7 @@
 
 .see {
     border-radius: 25px;
-    background-color: red;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
     color: white;
     font-size: 18px;
     padding: 8px 30px;
